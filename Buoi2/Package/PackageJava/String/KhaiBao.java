@@ -1,9 +1,11 @@
+package Package.PackageJava.String;
 
-public class String { // Nhớ thay tên class
+
+public class KhaiBao { // Nhớ thay tên class
 
     public static void main(String[] args) {
         String a = new String(); // Khai báo String
-        String b = new String("CLBTH"); //Khai báo string nhưng đã gán sẵn
+        var b = new String("CLBTH"); // Khai báo string nhưng đã gán sẵn
         // String b = "CLBTH";
         char c[] ={ 'C', 'L', 'B', 'T', 'H' }; //Khai báo char với từng ký tự
 	String d = new String(c); // Khai báo string = char c
